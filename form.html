@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+    <h2>Form Registrasi</h2>
+
+    <form action="#"method="get">
+      <fieldset>
+        <legend>Registrasi</legend>
+        <table>
+          <tr>
+            <td>Nama Mahasiswa</td>
+            <td>:<input type="text" placeholder="Nama" /></td>
+          </tr>
+          <tr>
+            <td>Nomor Induk Mahasiswa (NIM)</td>
+            <td>:<input type="number" placeholder="NIM" /></td>
+          </tr>
+          <tr>
+            <td>Alamat </td>
+            <td><textarea  placeholder="Alamat"></textarea></td>
+          </tr>
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td>:<input type="date" /></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+              :<input type="radio" name="LP" />Laki-Laki
+              <input type="radio" name="LP" />Perempuan
+            </td>
+          </tr>
+          <tr>
+            <td>Upload foto</td>
+            <td>:<input type="file" name="file input" id="file input" /></td>
+          </tr>
+          <tr>
+            <td>URL Website</td>
+            <td>:<input type="url" placeholder="URL Website Anda" /></td>
+          </tr>
+          <tr>
+            <td>Perguruan Tinggi</td>
+            <td>:<input type="text" placeholder="Perguruan Tinggi" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Info Akun</legend>
+        <table>
+          <tr>
+            <td>Email</td>
+            <td>:<input type="email" placeholder="Email Anda" /></td>
+          </tr>
+          <tr>
+            <td>Username</td>
+            <td>:<input type="text" placeholder="Username Anda" /></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>:<input type="password" placeholder="Password Anda" /></td>
+          </tr>
+          <tr>
+            <td>Ulangi password</td>
+            <td>:<input type="password" placeholder="Password Anda" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Kemampuan dasar</legend>
+        <table>
+          <tr>
+            <td><input type="checkbox" name="Peminatan" />HTML</td>
+            <td><input type="checkbox" name="Peminatan" />CSS</td>
+            <td><input type="checkbox" name="Peminatan" />Javascript</td>
+            <td><input type="checkbox" name="Peminatan" />PHP</td>
+            <td><input type="checkbox" name="Peminatan" />Laravel</td>
+            <td><input type="checkbox" name="Peminatan" />React Native</td>
+          </tr>
+        </table>
+      </fieldset>
+        <table>
+          <tr>
+            <td></td>
+            <td>
+              <input type="reset" value="Reset">
+              <input type="submit" value="Simpan">
+              <input type="button" value="Button">
+            </td>
+          </tr>
+        </table>
+    </form>
+  </body>
+</html>
